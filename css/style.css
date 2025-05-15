@@ -1,19 +1,23 @@
-/* * {
-    border : 1px solid;
-} */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
  .main-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
  }
 .main-logo {
-    border: 1px solid;
-    width: 50px;
-    height: 50px;
-    background-image: url(https://wallpapercat.com/w/full/b/6/b/920917-1920x1080-desktop-full-hd-logo-ac-milan-wallpaper.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 50%;
+    width: 200px;
+    height: 60px;
+}
+
+.main-logo p {
+  display: flex;      
+  font-weight: bolder;
+  font-size: 40px;
+  margin: auto;
+  margin-left: 10px;
 }
 
 nav {
@@ -27,21 +31,34 @@ nav > a {
     padding: 8px;
 }
 
+.banner {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
 .banner-form {
     display: flex;
     gap: 32px;
+    height: 600px;
 }
 .banner-img {
     border: 1px solid;
-    height: 250px;
-    flex : 1;
+    flex : 2;
+    border-radius: 10px;
+    width: 100%;
+}
+section {
+    text-align: center;
+}
+
+.banner-img img {
+    width: 70%;
+    border-radius: 10px;
 }
 
 .banner-form form {
     border: 1px solid;
     flex : 1;
-}
-
-section {
-    text-align: center;
+    background-color: grey;
+    border-radius: 10px;
 }

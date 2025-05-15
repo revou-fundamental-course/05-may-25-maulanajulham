@@ -3,17 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Panen Unduh</title>
+    <title>GoOut</title>
 
     <!-- css external -->
      <link rel="stylesheet" href="css/style.css">
+     <!-- Merubah font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
     <!-- main header -->
      <header class="main-header">
         <!-- Logo -->
-         <div class="main-logo"></div>
+         <div class="main-logo">
+            <p>GoOut</p>
+         </div>
          <!-- Navigasi -->
           <nav>
             <a href="#">Home</a>
@@ -26,12 +31,37 @@
       <main>
         <!-- Home Content -->
         <section>
-            <h1>Perumahan Kerta Graha Grande</h1>
-            <h4>Where Love Begin at Home</h4>
+            <div class="banner">
+            <h1>With GoOut u can Go Anything You Want.</h1>
+            <h4>Fit with your balance.</h4>
+            </div>
             <!-- Banner dan Form -->
             <div class="banner-form">
-                <div class="banner-img"></div>
-                <form></form>
+                <div class="banner-img">
+                    <div>
+                        <img src="https://eventdaerah.kemenparekraf.go.id/storage/app/uploads/public/676/3cd/917/6763cd9174641985422603.webp" alt="">
+                    </div>
+                    <div class="testimoni">
+                        <p>"Pengalaman yang sangat menyenangkan."</p>
+                        <p>Julham Maulana, 24</p>
+                    </div>
+                </div>
+                <form>
+                    <h3>Contact Us</h3>
+                    <p>Sales akan menghubungi anda 1x24 jam setelah data kami terima.</p>
+                    <label for="nama">Your Name:</label>
+                    <input type="text" id="nama" name="nama">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="contoh@email.com" required>
+                    <h5>What are you interested in?</h5>
+                        <label for="destinasi">Pilih destinasi:</label>
+                            <select id="destinasi" name="destinasi">
+                            <option value="Bali">Bali</option>
+                            <option value="Phuket">Phuket</option>
+                            <option value="Sapa">Sapa</option>
+                            </select>
+                    <button>Send</button>
+                </form>
             </div>
         </section>
         <hr/>
